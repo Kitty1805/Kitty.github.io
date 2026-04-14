@@ -296,6 +296,8 @@ nav a:hover, nav a.active
     {
         flex-direction: column;
         text-align: center;
+        overflow: hidden;
+        height: auto;
         padding: 40px;
     }
 
@@ -312,8 +314,12 @@ nav a:hover, nav a.active
 
     .hero-images img 
     {
-        transform: translateX(0);
-        max-width: 100%;
+        position: relative;
+        right: auto;
+        bottom: auto;
+        height: 300px;
+        margin-top: 20px;
+        filter: drop-shadow(0 0 20px rgba(128,0,32,0.4));
     }
 
     .hero-content h1 
@@ -331,6 +337,7 @@ nav a:hover, nav a.active
     {
         flex-direction: column;
         text-align: center;
+        padding: 20px 0;
     }
 
     .dashboard-grid 
@@ -345,7 +352,9 @@ nav a:hover, nav a.active
 
     nav ul 
     {
-        gap: 10px;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
         font-size: 0.8rem;
     }
 }
