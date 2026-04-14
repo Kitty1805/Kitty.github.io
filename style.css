@@ -298,18 +298,33 @@ nav a:hover, nav a.active
         text-align: center;
         overflow: hidden;
         height: auto;
-        padding: 40px;
+        padding: 40px 20px;
     }
 
     .hero-content 
     {
         max-width: 100%;
-        margin-bottom: 40px;
+        margin-bottom: 30px;
+        align-items: center;
+    }
+    .hero-content p
+    {
+        margin: 0 auto 20px auto;
     }
 
     .hero-btns 
     {
         justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    .hero-image
+    {
+        display: block;
+        width: 100%;
+        position: relative;
+        height: auto;
+        margin-top: 20px;
     }
 
     .hero-image img 
@@ -317,14 +332,17 @@ nav a:hover, nav a.active
         position: relative;
         right: auto;
         bottom: auto;
-        height: 300px;
-        margin-top: 20px;
+        height: auto;
+        width: 100%;
+        max-width: 300px;
+        margin: 0 auto;
         filter: drop-shadow(0 0 20px rgba(128,0,32,0.4));
+        display: block;
     }
 
     .hero-content h1 
     {
-        font-size: 2.8rem;
+        font-size: 2.5rem;
     }
     .dashboard-grid
     {
