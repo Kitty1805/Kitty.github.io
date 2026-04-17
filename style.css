@@ -64,24 +64,13 @@ nav a:hover, nav a.active
 {
     color: var(--text-main);
 }
-.login-btn, .btn-primary, .btn-secondary, .btn-action {
+.btn-primary, .btn-secondary, .btn-action {
     cursor: pointer;
     transition: all 0.3s ease;
     border-radius: 12px;
     font-weight: 600;
     display: inline-block;
     text-align: center;
-}
-.login-btn
-{
-    border: 1px solid var(--accent-gold);
-    padding: 8px 20px;
-    border-radius: 20px;
-}
-.login-btn:hover
-{
-    background-color: var(--accent-gold);
-    color: var(--bg-color);
 }
 
 .hero
